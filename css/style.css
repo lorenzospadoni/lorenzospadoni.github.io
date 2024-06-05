@@ -1,0 +1,44 @@
+html, * {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-color: #eee2b1;
+}
+
+header {
+  /* position:absolute;
+  top: 0px; */  
+    height: 100px;
+    width: 100%;
+    background-color: grey;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    margin-bottom: 12px;
+}
+
+header > h1 {
+    background-color: grey;
+}
+
+
+section {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+    align-items: center;
+    justify-content: center;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 6px;
+}
+
+
